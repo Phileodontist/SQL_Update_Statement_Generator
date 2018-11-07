@@ -1,0 +1,3 @@
+update antibody_table set comments=concat(comments, '; ', 'This is an example.'), ab_id='123456', cat_num='scr_12345' where id='AB_123456';
+update antibody_table set comments=concat(comments, '; ', 'This is another example.'), ab_id='54321', cat_num='scr_54321' where id='AB_654321';
+update antibody_table set comments=concat(comments, '; ', 'This is the last example'), ab_id='098765', cat_num='scr_13579' where id='AB_987654';
