@@ -27,3 +27,4 @@ In order to run the script, one needs to preform some preprocessing to get the i
 After performing the preprocessing step, one is now able to execute the generate_update_statements script by running the following command: `python generate_update_statements columns.txt values.txt ids.txt > example_output.txt` 
 <br/>[The end result](https://github.com/Phileodontist/SQL_Update_Statement_Generator/blob/master/example_output.txt)
 
+<br/>**Note:** This script is currently written to hand only one statement in the 'where' clause.
