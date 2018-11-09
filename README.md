@@ -3,8 +3,9 @@
 With the generate_update_statements script, one is able to generate SQL update statements in bulk. One needs to provide a list of columns, list of values for each column, a list of ids, the column used in the where statement and a delimiter.
 
 **Note:** 
-* This script was tailored for the use of creating update statements for the 'Antibody Registry' mysql database. 
-* This wasn't generalized for all-purpose use. 
+* This wasn't generalized for all-purpose use.
+* This script is currently written to hand only one statement in the 'where' clause.
+* This script was tailored for the use of creating update statements for the 'Antibody Registry' mysql database.  
 * (There are better methods of doing bulk updating, but for now creating update statements in bulk fits the current needs)
 
 ## Input
@@ -27,5 +28,3 @@ In order to run the script, one needs to preform some preprocessing to get the i
 ### Executing the Script
 After performing the preprocessing step, one is now able to execute the generate_update_statements script by running the following command: `python generate_update_statements columns.txt values.txt ids.txt 'id' ';' > example_output.txt` 
 <br/>[The end result](https://github.com/Phileodontist/SQL_Update_Statement_Generator/blob/master/example_output.txt)
-
-<br/>**Note:** This script is currently written to hand only one statement in the 'where' clause.
