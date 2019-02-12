@@ -80,7 +80,7 @@ def main():
 
     # Prints the final version of the update statements
     for statement in update_statement_list_final:
-        print(statement.replace('^M', ''))
+        print(statement.replace('\r', ''))
 
 if __name__ == "__main__":
     main()
