@@ -1,6 +1,6 @@
 # SQL_Update_Statement_Generator
 ## Introduction
-With the generate_update_statements script, one is able to generate SQL update statements in bulk. One needs to provide a list of columns, list of values for each column, a list of ids, the column used in the where statement, a delimiter, and the choice of appending or overwriting.
+With the generate_update_statements script, one is able to generate SQL update statements in [bulk](https://github.com/Phileodontist/SQL_Update_Statement_Generator/blob/master/example_output.txt). One needs to provide a list of columns, list of values for each column, a list of ids, the column used in the where statement, a delimiter, and the choice of appending or overwriting.
 
 **Note:** 
 * This wasn't generalized for all-purpose use.
