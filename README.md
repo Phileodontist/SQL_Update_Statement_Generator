@@ -28,5 +28,6 @@ In order to run the script, one needs to preform some preprocessing to get the i
 ### Executing the Script
 After performing the preprocessing step, one is now able to execute the generate_update_statements script by running the following command: `python generate_update_statements columns.txt values.txt ids.txt 'id' ';' 'yes' > example_output.txt` 
 <br/>
+<br/>
 `python generate_update_statements columns.txt values.txt ids.txt {id to perform the update on} {delimiter} {yes or no, to append to the column} > {output file}`
 <br/>[The end result](https://github.com/Phileodontist/SQL_Update_Statement_Generator/blob/master/example_output.txt)
